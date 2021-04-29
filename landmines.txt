@@ -1,0 +1,4 @@
+Shubh is a soldier and he is on a battle field.He got news from a spy that the landmines has been placed on an infinite straight road by the terrorists and the position 
+of the landmines are doubled every time.Initialy the position of a landmine is 1.You had given an array containing a1,a2...an of size
+N which shows different positions help Shubh to find the count of landmines present on the straight road.
+Example - lets have an array [1,2,3,4,5,6,7,8,9] and the positions of landmines are 1,2,4,8.Therefore the count is 4. 
