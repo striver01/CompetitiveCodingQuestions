@@ -1,0 +1,36 @@
+PROBLEM STATEMENT -
+
+	You are given a string **S** and you have to find two beautiful substrings.A string is beautiful when it is the first sorted substring of length **K** and it is the last reverse 
+sorted substring of length **K**.Note - (All alphabets are in upper case).
+
+	For Example - You have a string "AABBCCDDEEDDA" and its two beautiful substrings of size **K = 5** are "AABBC" and "EEDDA".
+
+INPUT FORMAT -
+
+	- First line contain an integer T.
+	- Next T testcases contains an integer **K** and next line contain a string **S**. 
+
+OUTPUT FORMAT -
+
+	First line should contain first sorted beautiful substring and next line contain the last reverse sorted beautiful substring.If first sorted beautiful substring is not present 
+print **-1** and if last reverse sorted substring is not present then print **-2**.
+
+CONSTRAINTS -
+
+	- $1\leq |S| \leq10^3$
+	- $1\leq K \leq|S|$
+
+SAMPLE INPUT -
+	
+	2
+	5
+	AABBCCDDEEDDA
+	4
+	AABBAA
+
+SAMPLE OUTPUT -
+
+	AABBC
+	EEDDA
+	AABB
+	BBAA
