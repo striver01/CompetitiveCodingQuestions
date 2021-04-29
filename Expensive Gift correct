@@ -1,0 +1,27 @@
+Problem Statement -
+		
+	There are n students standing in a row according to their roll-numbers and student with ith roll number has pocketmoney Ai.
+On occasion of Teachers' Day students have decided to team up with another student and combine their pocket-money to buy gift for their teacher.
+To avoid any confusion they have decided that student with roll number i will be paired with student with roll numebr n-i+1.
+On teachers day each pair of students gave their gifts to their teacher,but now the teacher wants to know which was the first pair to give him the most expensive gift.
+For any two pairs of students with rollnumbers say (i,n-i+1) and (j,n-j+1). if i is less than j then the pair (i,n-i+1) gave their gift before the pair (j,n-j+1)
+
+Input Format -  First line contains N - Number of students.And second line contains N space seperated integers where ith number represents pocket money of student whose roll number is i.
+		- Pocket money of students. 
+
+Output Format - 3 space seperated integers where first integer denotes roll number of first student in the pair.
+	        second integer denotes roll number of second student in the pair.
+	        and last one denotes the cost of their gift.
+
+Constraints - 1 <= N <= 10^5
+		N is even.
+           1 <= a1,a2,...,an <= 1000
+
+Sample - 
+	Input - 6	
+		2 2 1 9 8 7
+
+	Output - 2 8 10
+	
+
+Author - Shubh Purwar (Btech 2nd Year CSE)
