@@ -1,0 +1,55 @@
+PROBLEM STATEMENT - 
+	Water Station near your house is ordered to supply water to GKP society facing water scarcity. They supply water tank with N litres of water. Water tank had a leakage 
+due to which water is leaking out 1 litre/minute. 
+	Initially, the water tank is fully filled. In between the way the driver of the tank noticed about the leakage and he contacted M Water Stations ahead. The driver
+will stop at ith station from time Ki to Li and fill water at speed 1 litre/minute (Assume while filling the tank water is not leaking). Maximum Capacity of water tank is 100 Litres(Water 
+cannot be filled more than the capacity). The water tank will reach the society at time T. If in between the tank is empty then it will return back to the station.
+	You have to determine whether the people living in the society will survive or not.
+
+
+CONSTRAINTS - 
+	- 1 <= TC <= 10^3 
+	- 0 <= N <= 100
+	- 0 <= M <= 10^3
+	- 1 <= T <= 10^9
+	- 1 <= K1,L1 < K2,L2 < ...,Km,Lm <= T
+
+INPUT - 
+	- First line contains TC (no. of testcases).
+	- Next TC lines of each testcase contain N , M and T.
+	- And, Next M lines contains Ki and Li in each testcase.
+
+OUTPUT - 
+	If Tank reach the society with water then print "Survived" otherwise print "Danger". If it is survived then also print the amount of water left in the tank in the next line.
+
+Note* - T is given in minutes and initially it is 1.
+SAMPLE INPUT 1 - 
+	5
+	10 2 20
+	9 11
+	13 17
+	10 2 20
+	9 11
+	13 16
+	15 3 30
+	5 8
+	15 17
+	24 27
+	20 1 30
+	20 29
+	20 1 30
+	1 10
+
+SAMPLE OUTPUT - 
+	Survived
+	3
+	Survived
+	1
+	Survived
+	2
+	Survived
+	9
+	Survived
+	9
+ 
+
